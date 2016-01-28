@@ -3,4 +3,8 @@
 # jstips
 Dicas diárias de javascript.
 
-Créditos dos textos originais [jstips](https://github.com/loverajoel/jstips)
+# Tips list
+
+- 00 - [Inserir item em um array](https://github.com/hevertoncastro/dicas-js/blob/master/_posts/inserir-item-em-um-array.md)
+
+> Créditos dos textos originais [jstips](https://github.com/loverajoel/jstips)
