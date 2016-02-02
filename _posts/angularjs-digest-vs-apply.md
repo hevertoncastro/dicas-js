@@ -3,15 +3,14 @@ Uma das características mais apreciadas do AngularJs é o two-way data binding.
 Angular avalia cada observador quando um evento é disparado. Esse é o ciclo conhecido como `$digest`. Algumas vezes você precisa forçar a execução de um novo ciclo manualmente e deve escolher a opção correta pois esta fase é uma das que mais influencia em termos de performance.
 
 ### `$apply`
-This core method lets you to start the digestion cycle explicitly. That means that all watchers are checked; the entire application starts the `$digest loop`. Internally, after executing an optional function parameter, it calls `$rootScope.$digest();`.
+Este método do core permite você iniciar o ciclo digestion explicitamente. Isso significa que todos os observadores são verificados; toda a aplicação inicia o `$digest loop`. Internamente, depois de executar um parâmetro de função opcional, ele chama `$rootScope.$digest();`.
 
 ### `$digest`
-In this case the `$digest` method starts the `$digest` cycle for the current scope and its children. You should notice that the parent's scopes will not be checked.
- and not be affected.
+Nesse caso o  método `$digest` inicia o ciclo `$digest` para o escopo atual e seu filhos. Você deve notar que os escopos pais não serão verificados e afetados.
 
-### Recommendations
-- Use `$apply` or `$digest` only when browser DOM events have triggered outside of AngularJS.
-- Pass a function expression to `$apply`, this has an error handling mechanism and allows integrating changes in the digest cycle.
+### Recomendações
+- Use `$apply` ou `$digest` somente quando os eventos DOM do navegador forem provocados fora do AngularJs.
+- Passe uma expressão de função para `$apply`, ele tem um mecanismo de tratamento de erros e permite integrar as mudanças no ciclo digest.
 
 ```javascript
 $scope.$apply(() => {
@@ -19,6 +18,6 @@ $scope.$apply(() => {
 });
 ```
 
-- If you only need to update the current scope or its children, use `$digest`, and prevent a new digest cycle for the whole application. The performance benefit is self-evident.
-- `$apply()` is a hard process for the machine and can lead to performance issues when there is a lot of binding.
-- If you are using >AngularJS 1.2.X, use `$evalAsync`, which is a core method that will evaluate the expression during the current cycle or the next. This can improve your application's performance.
+- Se você só precisa atualizar o escopo atual ou seus filhos, use `$digest`, previnindo um novo ciclo digest para toda a aplicação. O benefício em performance é evidente.
+- `$apply()` é um processo difícil para a máquina e pode causar problemas de performance quando se tem muito binding.
+- Se você está usando >AngularJS 1.2.X, use `$evalAsync`, um método do core que irá avaliar a expressão durante o ciclo atual ou o próximo. Isto pode melhorar a performance da aplicação.
