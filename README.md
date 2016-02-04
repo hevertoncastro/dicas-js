@@ -6,5 +6,6 @@ Com menos de 2 minutos por dia, você poderá ler sobre performance, convençõe
 # Lista de dicas
 
 - 00 - [Inserir item em um array](https://github.com/hevertoncastro/dicas-js/blob/master/_posts/inserir-item-em-um-array.md)
+- 01 - [AngularJs - Digest vs Apply](https://github.com/hevertoncastro/dicas-js/blob/master/_posts/angularjs-digest-vs-apply.md)
 
 > Créditos dos textos originais [jstips](https://github.com/loverajoel/jstips)
