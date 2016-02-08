@@ -1,3 +1,5 @@
+# AngularJs - Digest vs Apply
+
 Uma das características mais apreciadas do AngularJs é o two-way data binding. Para fazer este trabalho o AngularJs avalia as mudanças entre o model e a view através de ciclos ( $digest ). Você precisa entender esse conceito para entender como o framework funciona debaixo do capô.
 
 Angular avalia cada observador quando um evento é disparado. Esse é o ciclo conhecido como `$digest`. Algumas vezes você precisa forçar a execução de um novo ciclo manualmente e deve escolher a opção correta pois esta fase é uma das que mais influencia em termos de performance.
