@@ -1,3 +1,5 @@
+# Keys são importante no React
+
 The [key](https://facebook.github.io/react/docs/multiple-components.html#dynamic-children) é um atributo que você deve passar para todos os componentes criados dinamicamente a partir de um array. É um id único e constante que o React usa para identificar cada componente no DOM e saber quando é diferente ou o mesmo componente. Usar keys garante que o componente filho é preservado e não recriado prevenindo comportamentos não esperados.
 
 > Key realmente não é sobre performance, é mais sobre identificar (que por sua vez leva a um melhor desempenho). Atribuição aleatória e mudança de valores não formam uma identidade [Paul O’Shannessy](https://github.com/facebook/react/issues/1342#issuecomment-39230939) (tradução literal)
