@@ -16,7 +16,7 @@ Há várias maneiras de obter atualização, escolha a sua:
 - [Hingsir](http://hingsir.com/jstips-site/dist/tips/)
 - [Awesomelists](https://awesomelists.top/#/repos/loverajoel/jstips)
 
-# Lista de dicas
+### Lista de dicas
 
 - 00 - [Inserir item em um array](https://github.com/hevertoncastro/dicas-js/blob/master/_posts/inserir-item-em-um-array.md)
 - 01 - [AngularJs - Digest vs Apply](https://github.com/hevertoncastro/dicas-js/blob/master/_posts/angularjs-digest-vs-apply.md)
