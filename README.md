@@ -22,5 +22,6 @@ Há várias maneiras de obter atualização, escolha a sua:
 - 01 - [AngularJs - Digest vs Apply](https://github.com/hevertoncastro/dicas-js/blob/master/_posts/angularjs-digest-vs-apply.md)
 - 02 - [Keys são importantes](https://github.com/hevertoncastro/dicas-js/blob/master/_posts/keys-sao-importantes-react.md)
 - 03 - [Melhorar Condicionais Aninhados](https://github.com/hevertoncastro/dicas-js/blob/master/_posts/melhorar-condicionais-aninhados.md)
+- 04 - [Ordenando strings com caracteres acentuados](https://github.com/hevertoncastro/dicas-js/blob/master/_posts/ordenando-strings-com-caracteres-acentuados.md)
 
 > Créditos dos textos originais [jstips](https://github.com/loverajoel/jstips)
