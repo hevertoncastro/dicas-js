@@ -1,15 +1,4 @@
----
-layout: post
-
-title: Sorting strings with accented characters
-tip-number: 04
-tip-username: loverajoel 
-tip-username-profile: https://github.com/loverajoel
-tip-tldr: Javascript tem o método nativo **sort** que permite ordenar arrays. Um simples `array.sort()` irá tratar cada item do array como uma string e ordená-los alfabeticamente. Mas quando tentamos ordenar um array com caracteres fora da tabela ASCII obtemos um resultado inesperado.
-
-categories:
-    - pt_BR
----
+# Ordenando strings com caracteres acentuados
 
 Javascript tem o método nativo **[sort](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort)** que permite ordenar arrays. Um simples `array.sort()` irá tratar cada item do array como uma string e ordená-los alfabeticamente. Você também pode utilizar sua [própria função de ordenação](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort#Parameters).
 
