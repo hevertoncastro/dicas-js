@@ -1,18 +1,5 @@
 # Diferenças entre undefined e null
 
----
-layout: post
-
-title: Diferenças entre `undefined` e `null`
-tip-number: 05
-tip-username: loverajoel 
-tip-username-profile: https://github.com/loverajoel
-tip-tldr: Entendendo as diferenças entre `undefined` e `null`.
-
-categories:
-    - pt_BR
----
-
 - `undefined` significa que a variável não foi declarada ou foi declarada mas ainda não foi atribuído um valor
 - `null` é uma atribuição que significa "sem valor"
 - Javascript seta variáveis com valor não atribuído como `undefined` por padrão
