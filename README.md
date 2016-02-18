@@ -23,5 +23,6 @@ Há várias maneiras de obter atualização, escolha a sua:
 - 02 - [Keys são importantes](https://github.com/hevertoncastro/dicas-js/blob/master/_posts/keys-sao-importantes-react.md)
 - 03 - [Melhorar Condicionais Aninhados](https://github.com/hevertoncastro/dicas-js/blob/master/_posts/melhorar-condicionais-aninhados.md)
 - 04 - [Ordenando strings com caracteres acentuados](https://github.com/hevertoncastro/dicas-js/blob/master/_posts/ordenando-strings-com-caracteres-acentuados.md)
+- 05 - [Diferenças entre `undefined` e `null`](https://github.com/hevertoncastro/dicas-js/blob/master/_posts/diferencas-entre-undefined-e-null.md)
 
 > Créditos dos textos originais [jstips](https://github.com/loverajoel/jstips)
