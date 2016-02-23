@@ -25,6 +25,6 @@ Há várias maneiras de obter atualização, escolha a sua:
 - 04 - [Ordenando strings com caracteres acentuados](https://github.com/hevertoncastro/dicas-js/blob/master/_posts/ordenando-strings-com-caracteres-acentuados.md)
 - 05 - [Diferenças entre `undefined` e `null`](https://github.com/hevertoncastro/dicas-js/blob/master/_posts/diferencas-entre-undefined-e-null.md)
 - 06 - [Escrevendo um único método tanto para arrays quanto para elementos únicos](https://github.com/hevertoncastro/dicas-js/blob/master/_posts/escrevendo-um-unico-metodo-tanto-para-arrays-quanto-para-elementos-unicos.md)
-- 07 - [Use o modo strict e relaxe](https://github.com/hevertoncastro/dicas-js/blob/master/_posts/use-strict-e-relaxe.md)
+- 07 - [Use o strict e relaxe](https://github.com/hevertoncastro/dicas-js/blob/master/_posts/use-strict-e-relaxe.md)
 
 > Créditos dos textos originais [jstips](https://github.com/loverajoel/jstips)
