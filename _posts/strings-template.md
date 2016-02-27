@@ -1,16 +1,3 @@
----
-layout: post
-
-title: Strings template
-tip-number: 09
-tip-username: JakeRawr
-tip-username-profile: https://github.com/JakeRawr
-tip-tldr: A partir do ES6, o JS tem strings template como uma alternativa às citações clássicas em strings.
-
-categories:
-    - pt_BR
----
-
 A partir do ES6, o JS tem strings template como uma alternativa ao clássico de citações em strings.
 
 Ex:
