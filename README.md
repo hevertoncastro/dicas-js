@@ -26,5 +26,7 @@ Há várias maneiras de obter atualização, escolha a sua:
 - 05 - [Diferenças entre `undefined` e `null`](https://github.com/hevertoncastro/dicas-js/blob/master/_posts/diferencas-entre-undefined-e-null.md)
 - 06 - [Escrevendo um método para arrays ou elementos únicos](https://github.com/hevertoncastro/dicas-js/blob/master/_posts/escrevendo-um-unico-metodo-tanto-para-arrays-quanto-para-elementos-unicos.md)
 - 07 - [Use o strict e relaxe](https://github.com/hevertoncastro/dicas-js/blob/master/_posts/use-strict-e-relaxe.md)
+- 08 - [Convertendo uma lista de nós em array](https://github.com/hevertoncastro/dicas-js/blob/master/_posts/convertendo-uma-lista-de-nos-em-array.md)
+- 09 - [Strings template](https://github.com/hevertoncastro/dicas-js/blob/master/_posts/strings-template.md)
 
 > Créditos dos textos originais [jstips](https://github.com/loverajoel/jstips)
