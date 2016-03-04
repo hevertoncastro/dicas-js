@@ -28,5 +28,6 @@ Há várias maneiras de obter atualização, escolha a sua:
 - 07 - [Use o strict e relaxe](https://github.com/hevertoncastro/dicas-js/blob/master/_posts/use-strict-e-relaxe.md)
 - 08 - [Convertendo uma lista de nós em array](https://github.com/hevertoncastro/dicas-js/blob/master/_posts/convertendo-uma-lista-de-nos-em-array.md)
 - 09 - [Strings template](https://github.com/hevertoncastro/dicas-js/blob/master/_posts/strings-template.md)
+- 10 - [Checar se uma propriedade está no objeto](https://github.com/hevertoncastro/dicas-js/blob/master/_posts/checar-se-uma-propriedade-esta-no-objeto.md)
 
 > Créditos dos textos originais [jstips](https://github.com/loverajoel/jstips)
