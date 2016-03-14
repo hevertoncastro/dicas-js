@@ -1,51 +1,39 @@
----
-layout: post
+Entender [hoisting](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var#var_hoisting) irá te ajudar a organizar o escopo de funções. Lembre-se, declarações de variáveis e definições de funções são içadas para o topo. Definições de variáveis não, mesmo se você declarar e definir uma variável na mesma linha. A **declaração** de uma variável permite que o sistema saiba que ela existe enquanto a **definição** lhe atribui um valor.
 
-title: Hoisting
-tip-number: 11
-tip-username: squizzleflip
-tip-username-profile: https://twitter.com/squizzleflip
-tip-tldr: JavaScript modules and build steps are getting more numerous and complicated, but what about boilerplate in new frameworks?
-
-categories:
-    - en
----
-
-Understanding [hoisting](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var#var_hoisting) will help you organize your function scope. Just remember, variable declarations and function definitions are hoisted to the top. Variable definitions are not, even if you declare and define a variable on the same line. Also, a variable **declaration** lets the system know that the variable exists while **definition** assigns it a value.
 
 ```javascript
-function doTheThing() {
-  // ReferenceError: notDeclared is not defined
-  console.log(notDeclared);
+function fazerAlgo() {
+  // ReferenceError: naoDeclarada is not defined
+  console.log(naoDeclarada);
 
-  // Outputs: undefined
-  console.log(definedLater);
-  var definedLater;
+  // Saída: undefined
+  console.log(definidaDepois);
+  var definidaDepois;
 
-  definedLater = 'I am defined!'
-  // Outputs: 'I am defined!'
-  console.log(definedLater)
+  definidaDepois = 'Eu estou definida!'
+  // Saída: 'Eu estou definida!'
+  console.log(definidaDepois);
 
-  // Outputs: undefined
-  console.log(definedSimulateneously);
-  var definedSimulateneously = 'I am defined!'
-  // Outputs: 'I am defined!'
-  console.log(definedSimulateneously)
+  // Saída: undefined
+  console.log(definidaSimultaneamente);
+  var definidaSimultaneamente = 'Eu estou definida!'
+  // Saída: 'Eu estou definida!'
+  console.log(definidaSimultaneamente);
 
-  // Outputs: 'I did it!'
-  doSomethingElse();
+  // Saída: 'Eu fiz isto!'
+  fazerOutraCoisa();
 
-  function doSomethingElse(){
-    console.log('I did it!');
+  function fazerOutraCoisa(){
+    console.log('Eu fiz isto!');
   }
 
   // TypeError: undefined is not a function
-  functionVar();
+  funcaoVar();
 
-  var functionVar = function(){
-    console.log('I did it!');
+  var funcaoVar = function(){
+    console.log('Eu fiz isto!');
   }
 }
 ```
 
-To make things easier to read, declare all of your variables at the top of your function scope so it is clear which scope the variables are coming from. Define your variables before you need to use them. Define your functions at the bottom of your scope to keep them out of your way.
+Para tornar as coisas fáceis de se ler, declare todas variáveis no topo do escopo da sua função para que fique claro de qual escopo elas estão vindo. Defina suas variáveis antes de precisar usá-las. Defina suas funções no final do seu escopo para que fiquem fora do seu caminho.
