@@ -30,5 +30,6 @@ Há várias maneiras de obter atualização, escolha a sua:
 - 09 - [Strings template](https://github.com/hevertoncastro/dicas-js/blob/master/_posts/strings-template.md)
 - 10 - [Checar se uma propriedade está no objeto](https://github.com/hevertoncastro/dicas-js/blob/master/_posts/checar-se-uma-propriedade-esta-no-objeto.md)
 - 11 - [Hoisting - Içamento](https://github.com/hevertoncastro/dicas-js/blob/master/_posts/hoisting.md)
+- 12 - [Parâmetros pseudo obrigatórios em funções ES6](https://github.com/hevertoncastro/dicas-js/blob/master/_posts/parametros-pseudo-obrigatorios-em-funcoes-es6.md)
 
 > Créditos dos textos originais [jstips](https://github.com/loverajoel/jstips)
