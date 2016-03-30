@@ -1,7 +1,7 @@
 ![header](https://raw.githubusercontent.com/loverajoel/jstips/gh-pages/resources/jstips-header-blog.gif)
 
 # Dicas diárias de javascript
-> Ano novo, projeto novo. **Uma dica de JS por dia!**
+> **Uma dica de JS por dia!**
 
 Com grande entusiasmo, apresento diariamente estas dicas curtas e úteis sobre JavaScript que lhe permitirão melhorar a escrita do seu código. Com menos de 2 minutos a cada dia, você será capaz de ler sobre desempenho, convenções, hacks e todos os itens que o futuro desta linguagem impressionante tem para nós.
 
