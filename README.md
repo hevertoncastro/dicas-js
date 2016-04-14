@@ -32,5 +32,6 @@ Há várias maneiras de obter atualização, escolha a sua:
 - 11 - [Hoisting - Içamento](https://github.com/hevertoncastro/dicas-js/blob/master/_posts/hoisting.md)
 - 12 - [Parâmetros pseudo obrigatórios em funções ES6](https://github.com/hevertoncastro/dicas-js/blob/master/_posts/parametros-pseudo-obrigatorios-em-funcoes-es6.md)
 - 13 - [Medir performance de um bloco de javascript](https://github.com/hevertoncastro/dicas-js/blob/master/_posts/dica-para-medir-performance-de-um-bloco-de-javascript.md)
+- 14 - [14 - Funções Fat Arrow #ES6](https://github.com/hevertoncastro/dicas-js/blob/master/_posts/funcoes-fat-arrow.md)
 
 > Créditos dos textos originais [jstips](https://github.com/loverajoel/jstips)
